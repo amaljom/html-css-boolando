@@ -60,6 +60,15 @@ p{
     justify-content: space-between;
 }
 
+span{
+    color: red;
+    font-weight: bolder;
+}
+.cancellato{
+    font-weight: 200;
+    color: black;
+    text-decoration-line: line-through;
+}
 .sconto{
     background-color: rgb(226, 13, 13);
     position: absolute;
