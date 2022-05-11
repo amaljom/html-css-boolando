@@ -3,28 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* 
-header{
-    width: 2000px;
-    margin: 0 auto;
-}
-.primo-div{
-    padding: 20px 260px;
-    background-color: orangered;
-    height: 70px;
-    display: flex;
-    
-}
 
-ul{
-    display:flex;
-    
-}
-li{
-    color: white;
-    list-style: none;
-    padding-right: 10px;
-} */
 ul{
     display:flex;
     align-self: center;
@@ -65,7 +44,6 @@ p{
 
 .corpo-principale{
     width: 1444px;
-    height: 900px;
     margin: 0 auto;
     margin-top: 3%;
 }
@@ -80,5 +58,64 @@ p{
 }
 .foto{
     width: 466px;
+}
+.sconto{
+    background-color: rgb(226, 13, 13);
+    position: absolute;
+    bottom: 70px;
+    padding: 5px 11px;
+    color: #fff;
+}
+.sos{
+    background-color: green;
+    position: absolute;
+    padding: 5px 11px;
+    bottom: 70px;
+    left: 60px;
+    color: #fff;
+}
+.sos1{
+    background-color: green;
+    position: absolute;
+    padding: 5px 11px;
+    bottom: 70px;
+    
+    color: #fff;
+}
+.relative{
+position: relative;
+}
+
+
+/* footer */
+.finale{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #242424;
+    height: 150px;
+    margin-top: 100px;
+}
+.finale2{
+    width: 1444px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.finale3{
+    width: 1444px;
+    display: flex;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.fin{
+    display: flex;
+    justify-content: space-around;
+
+}
+h4{
+    padding-right: 9px;
 }
 
