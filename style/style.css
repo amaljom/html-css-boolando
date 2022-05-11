@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 1920px;
+    margin: 0 auto;
+}
+
 
 ul{
     display:flex;
@@ -23,6 +28,8 @@ p{
     background-color: #3d7e00;
     margin: 0 auto;
     padding: 10px 260px;
+    position: fixed;
+    z-index: 1;
 }
 
 .immagine{
@@ -48,7 +55,7 @@ p{
 .corpo-principale{
     width: 1444px;
     margin: 0 auto;
-    margin-top: 3%;
+    padding-top: 4%;
 }
 .prima-row{
     display: flex;
