@@ -64,21 +64,21 @@ p{
 /* main */
 
 .corpo-principale{
-    background-color: rgb(78, 129, 129);
-    width: 1400px;
+    width: 1444px;
     height: 900px;
     margin: 0 auto;
     margin-top: 3%;
 }
 .prima-row{
     display: flex;
+    justify-content: space-between;
 }
 .seconda-row{
+    margin-top: 45px;
     display: flex;
+    justify-content: space-between;
 }
 .foto{
     width: 466px;
-    
-    padding: 15pxx 27px;
-    padding: 20px 12px;
 }
+
