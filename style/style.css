@@ -56,9 +56,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.foto{
-    width: 466px;
-}
+
 .sconto{
     background-color: rgb(226, 13, 13);
     position: absolute;
@@ -82,8 +80,21 @@ p{
     
     color: #fff;
 }
+.foto{
+    width: 466px;
+}
 .relative{
 position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
 }
 
 
