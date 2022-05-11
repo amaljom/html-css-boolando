@@ -90,12 +90,21 @@ position: relative;
     position: absolute;
     top:0;
     left: 0;
-    width: 100%;
+    width: 466px;
     opacity: 0;
 }
 .overlay:hover{
     opacity: 1;
 }
+
+.sconto-hover{
+    background-color: rgb(226, 13, 13);
+    position: absolute;
+    bottom: -589px;
+    padding: 5px 11px;
+    color: #fff;
+}
+
 
 
 /* footer */
